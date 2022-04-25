@@ -1,0 +1,53 @@
+body {
+	 white-space: nowrap;
+}	
+h1 {
+	color: #8a0000;
+	margin-left: 500px;
+	position: absolute;
+	
+}
+h2 {
+	color: #8a0000;	
+	margin-left: 400px;
+	margin-top: 80px;
+	position: absolute;
+}
+form {
+	display: grid;
+	grid-template-columns: 100px 160px;
+	grid-gap: 16px;
+	width: 260px;
+	position: absolute;
+	margin-left: 540px;
+	margin-top: 180px;
+}
+label {
+    grid-column: 1 / 2;
+	font-size: 24px;
+	font-weight: 800;
+	text-align: right;
+} 
+input,
+button {
+    grid-column: 2 / 3;
+}
+button {
+	background-color: #506ba7;
+	color: white;
+	border: 0;
+	height: 36px;
+	font-size: 20px;
+	width: 130px;
+}
+.required:after {
+	content: " *";
+	color: red;
+}
+#result {
+	margin-top: 320px;
+	margin-left: 660px;
+	position: absolute;
+	font-weight: 700;
+	font-size: 18px;
+}	
